@@ -1,0 +1,45 @@
+.contato {
+
+  height: 10rem;
+
+}
+
+.linkedin-img {
+
+  height: 50px;
+
+}
+
+.contato-direitos {
+
+display: flex;
+justify-content: center;
+margin-bottom: 0;
+margin-top: 50px;
+
+}
+
+.contato-titulo {
+
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+}
+
+.contatos-uteis {
+
+  display: flex;
+  gap: 5rem;
+  font-size: 1.5rem;
+  justify-content: center;
+  margin-top: 25px;
+
+}
+
+.contato-email {
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+}

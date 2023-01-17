@@ -1,0 +1,56 @@
+.logo {
+
+  width: 20rem;
+  height: auto  ;
+  padding: 1rem;
+
+}
+
+.header {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.links {
+
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 3rem;
+  width: auto;
+  height: 1rem;
+
+}
+
+.links li {
+
+  background-color: white;
+  width: auto;
+  border-radius: 4px;
+  height: auto;
+  margin: 10px 20px;
+ 
+}
+
+.links li a {
+
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  transition: .3s;
+  border: 0.3rem solid white;
+
+}
+
+.links li a:hover {
+
+  background-color: lightgrey;
+  border-radius: 0.3rem;
+  opacity: 1;
+  border: 0.3rem solid lightgray;
+
+
+}

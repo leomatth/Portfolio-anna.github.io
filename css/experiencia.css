@@ -1,0 +1,30 @@
+.experiencia-img {
+
+  width: 30rem;
+  height: auto  ;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+
+}
+
+.experiencia {
+
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px 20px;
+  background-color: #323232;
+  color: white;
+
+}
+
+.experiencia-list,.experiencia-empresa,.experiencia-data,.experiencia-tema
+,.experiencia-funcao,.experiencia-cargo {
+
+  display: block;
+  gap: 10px;
+
+}

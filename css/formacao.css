@@ -1,0 +1,49 @@
+.formacao {
+
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 40px 20px;
+  margin-top: 5rem;
+  background-color: #323232;
+  color: white;
+
+
+}
+
+
+.formacao h1 {
+
+  word-break: break-all;
+  justify-self: center;
+  align-self: center;
+  font-size: 10rem;
+  color: black;
+}
+
+
+.formacao-list {
+
+  justify-self: center;
+  align-self: center;
+
+}
+
+.formacao-list-list {
+
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 40rem;
+  align-self:baseline;
+  margin-left: 8.5rem;
+
+}
+
+.formacao-instituicao {
+
+
+  margin-top: 0px;
+
+}

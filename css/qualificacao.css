@@ -1,0 +1,16 @@
+.selecaoskills {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+
+}
+
+.skill1, .skill2, .skill3 {
+
+  width: 3.625rem;
+  height: 4.625rem;
+  
+  
+  }
+

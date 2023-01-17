@@ -1,0 +1,33 @@
+.introducao {
+
+  align-self: center;
+  text-align: center;
+  padding: 5rem;
+  font-size: 1.35rem;
+  border-radius: .5rem;
+
+}
+
+
+.foto {
+
+  height: 20rem;
+  width: auto;
+  justify-self: center;
+  align-self: center;
+
+
+}
+
+
+.sobre {
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 5rem;
+
+}
+
+
+
+
