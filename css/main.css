@@ -8,7 +8,6 @@
 
 }
 
-
 .foto {
 
   height: 20rem;
@@ -19,12 +18,42 @@
 
 }
 
-
 .sobre {
 
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-top: 5rem;
+
+}
+
+
+
+@media (max-width:500px) {
+
+  .sobre {
+
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+
+  
+  }
+
+  .foto {
+
+    height: 20rem;
+    width: auto;
+    justify-self: center;  
+  
+  }
+
+  .introducao {
+
+    font-size: 1.15rem;
+    margin: 50px 15px;
+    padding: 10px;
+    
+  }
 
 }
 

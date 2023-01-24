@@ -54,3 +54,46 @@
 
 
 }
+
+@media (max-width: 500px) {
+  
+  .header {
+
+    display: block;
+    
+  }
+
+  .logo {
+
+    width: 15rem;
+    display: block; 
+    margin: auto;
+
+  }
+
+  .links {
+
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    margin-top: 50px;
+
+  }
+
+  
+  .links li {
+
+    background-color: white;
+    width: auto;
+    border-radius: 4px;
+    height: auto;
+    margin: 5px 5px;
+  
+  }
+  
+}
